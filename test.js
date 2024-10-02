@@ -21,3 +21,30 @@ let x=0
 
 while(x++ <5,x<3)
     console.log(x)
+
+const obj={"name":"sanajy",
+    "data":{}
+}
+
+console.log(obj?.name?? 'unknown')
+console.log(obj?.name1?? 'unknown')
+
+// console.log(globalThis)
+// console.log(window)
+
+function foo(a,b,c){
+    console.log(arguments)
+    arguments[0]=10
+    arguments[1]=5
+    console.log(a,b,arguments[0])
+}
+
+foo(1,2,3)
+
+numb=6
+console.log(numb)
+var numb;
+
+numb1=6
+console.log(numb1)
+let numb1;
