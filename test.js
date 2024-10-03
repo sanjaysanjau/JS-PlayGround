@@ -45,6 +45,8 @@ numb=6
 console.log(numb)
 var numb;
 
-numb1=6
-console.log(numb1)
-let numb1;
+// numb1=6
+// console.log(numb1)
+// let numb1;
+
+console.log(1 << "2" | "3")
