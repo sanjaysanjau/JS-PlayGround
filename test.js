@@ -50,3 +50,13 @@ var numb;
 // let numb1;
 
 console.log(1 << "2" | "3")
+
+
+function data(){
+let a=b=8
+console.log("trst a:"+a)
+
+}
+
+data()
+console.log("test b:"+b)
