@@ -60,3 +60,4 @@ console.log("trst a:"+a)
 
 data()
 console.log("test b:"+b)
+
