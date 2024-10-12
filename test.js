@@ -61,3 +61,12 @@ console.log("trst a:"+a)
 data()
 console.log("test b:"+b)
 
+let sData = {
+    fName: "sanjay", 
+    lName: "yuvaraj",
+    name: function() {
+        return this.fName + " " + this.lName;
+    }
+};
+
+console.log("Test this keyword:", sData.name());
