@@ -70,3 +70,8 @@ let sData = {
 };
 
 console.log("Test this keyword:", sData.name());
+
+
+let newList=[1].push(2)
+console.log(newList)
+// console.log(newList.push(3));
