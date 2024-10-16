@@ -75,3 +75,7 @@ console.log("Test this keyword:", sData.name());
 let newList=[1].push(2)
 console.log(newList)
 // console.log(newList.push(3));
+const newArr=[1,2,3,4,null]
+newArr.pop()
+delete newArr[0]
+console.log(newArr)
