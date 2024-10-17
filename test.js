@@ -79,3 +79,8 @@ const newArr=[1,2,3,4,null]
 newArr.pop()
 delete newArr[0]
 console.log(newArr)
+
+(function(num){
+console.log(num*num)
+})(false)
+
