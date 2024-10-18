@@ -82,5 +82,8 @@ console.log(newArr)
 
 (function(num){
 console.log(num*num)
+
 })(false)
+
+
 
